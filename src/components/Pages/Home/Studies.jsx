@@ -22,8 +22,8 @@ export const Studies = () => {
         <Technical/>
         <Technologist/>
         <English/>
-        <Footer/>
       </div>
+      <Footer/>
     </>
   );
 };

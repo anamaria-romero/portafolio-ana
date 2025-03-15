@@ -41,7 +41,6 @@
   margin: 0 auto; 
 }
 
-
 .ContainerSkills{
   margin-top: 30px;
   display: flex;
@@ -189,4 +188,31 @@ a {
 
 .card-back li {
   margin-bottom: 5px;
+}
+
+.social-skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.social-skill {
+  background-color: rgb(74, 9, 120);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+  .social-skills-container {
+    grid-template-columns: 1fr;
+  }
 }

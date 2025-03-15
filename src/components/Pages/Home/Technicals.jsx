@@ -22,8 +22,8 @@ export const Technicals = () => {
         <Programation />
         <Backend />
         <Versions />
-        <Footer/>
       </div>
+      <Footer/>
     </>
   );
 };

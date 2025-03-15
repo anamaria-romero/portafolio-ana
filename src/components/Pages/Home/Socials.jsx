@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../../Layouts/Footer/Footer";
+import { SocialsSkills } from "../../Ui/SocialsSkills/SocialsSkills";
 
 export const Socials = () => {
   const navigate = useNavigate();
@@ -12,8 +13,8 @@ export const Socials = () => {
         </button>
         <h1 className="tittle">Habilidades Sociales</h1>
       </div>
-
-        <Footer/>
+      <SocialsSkills/>
+      <Footer/>
     </>
   );
 };
