@@ -1,5 +1,4 @@
 import { ImgHeader } from "../../Ui/ImgHeader/ImgHeader"
-import { Description } from "../../Ui/Description/Description"
 
 export const Header = () => {
     return(
