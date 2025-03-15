@@ -1,6 +1,8 @@
 *{
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #root {
@@ -14,7 +16,7 @@
 .ContainerName{
   margin: 0%;
   width: 100%;
-  height: 280px;
+  height: 295px;
   background-color: rgb(145, 114, 173);
   text-align: center;
 }
@@ -58,14 +60,14 @@
 }
 
 .Skills:active {
-  background-color: #a259c9;
+  background-color: rgb(74, 9, 120);
 }
 
 footer {
   width: 100%;
   height: 100px;
   margin-top: 30px;
-  background-color: #a259c9;
+  background-color: rgb(145, 114, 173);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +75,7 @@ footer {
 
 nav {
   display: flex;
-  gap: 40px; /* Espacio entre las columnas */
+  gap: 40px;
 }
 
 ul {
@@ -87,26 +89,104 @@ li {
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: black;
 }
 
 .BackButton {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: #a259c9;
+  background-color: rgb(145, 114, 173);
   color: white;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .BackButton:hover {
-  background-color: #7e3aa5;
+  background-color: rgb(74, 9, 120);
 }
 
+.tittle{
+  margin-top: 60px;
+}
 
-  
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card { 
+  width: 160px;
+  height: 140px;
+  perspective: 1000px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.card-front {
+  background-color: rgb(74, 9, 120);
+  color: white;
+  font-weight: bold;
+}
+
+.card-back {
+  background-color: rgb(145, 114, 173);
+  transform: rotateY(180deg);
+  font-size: 12px;
+}
+
+.card-back ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-back li {
+  margin-bottom: 5px;
+}
