@@ -1,5 +1,5 @@
-import { Facebook } from "../../Ui/ImgFooter/facebook"
-import { Github } from "../../Ui/ImgFooter/github"
+import { Facebook } from "../../../components/Ui/ImgFooter/facebook"
+import { Github } from "../../../components/Ui/ImgFooter/github"
 import { Gmail } from "../../Ui/ImgFooter/Gmail"
 import { Instagram } from "../../Ui/ImgFooter/Instagram"
 import { Linkedin } from "../../Ui/ImgFooter/Linkedin"
@@ -23,5 +23,5 @@ export const Footer = () => {
           </ul>
       </nav>
     </footer>
-  ) 
+  )
 }

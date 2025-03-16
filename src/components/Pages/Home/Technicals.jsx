@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Frontend } from "../../Ui/TechnicalsSkills/frontend";
+import { Frontend } from "../../Ui/TechnicalsSkills/Frontend";
 import { Programation } from "../../Ui/TechnicalsSkills/Programation";
 import { Backend } from "../../Ui/TechnicalsSkills/Backend";
 import { Versions } from "../../Ui/TechnicalsSkills/Versions";

@@ -16,7 +16,7 @@ export const Technical = () => {
               <li>Analisis y Desarrollo de Software</li>
               <li>SENA</li>
               <li>2022 - 2023</li>
-              <li><a href="">Descargar Diploma</a></li>
+              <a href="/pdf/Tecnico.pdf" target="_blank" rel="noopener noreferrer">Ver Técnico</a>
             </ul>
           </nav>
         </div>

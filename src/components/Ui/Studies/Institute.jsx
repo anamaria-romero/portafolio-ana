@@ -16,7 +16,7 @@ export const Institute = () => {
               <li>Bachiller</li>
               <li>Institucion Educativa Instituo Pijao</li>
               <li>2012 - 2023</li>
-              <li><a href="">Descargar Diploma</a></li>
+              <a href="/pdf/Bachiller.pdf" target="_blank" rel="noopener noreferrer">Ver Bachiller</a>
             </ul>
           </nav>
         </div>
