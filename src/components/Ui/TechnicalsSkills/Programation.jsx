@@ -7,9 +7,9 @@ export const Programation = () => {
     <div className={`card ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(!flipped)}>
       <div className="card-inner">
         <div className="card-front">
-          <h2>Lenguajes de Programacion</h2>
+          <h2>LENGUAJES <br/> DE PROGRAMACION</h2>
         </div>
-
+        
         <div className="card-back">
           <nav>
             <ul>

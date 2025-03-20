@@ -7,7 +7,7 @@ export const Technical = () => {
     <div className={`card ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(!flipped)}>
       <div className="card-inner">
         <div className="card-front">
-          <h2>Tecnico</h2>
+          <h2>TECNICO</h2>
         </div>
 
         <div className="card-back">

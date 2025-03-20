@@ -6,7 +6,7 @@ export const Header = () => {
     <div className = "ContainerName">
     <h1>Ana María Romero Martínez</h1>
     <ImgHeader/>
-    <h3>Desarrolladora y analista de software</h3>
+    <h2 className="develop">Desarrolladora y analista de software</h2>
     </div> 
     </>
     )

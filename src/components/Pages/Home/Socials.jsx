@@ -11,7 +11,7 @@ export const Socials = () => {
         <button className="BackButton" onClick={() => navigate("/")}>
           ⬅ Volver
         </button>
-        <h1 className="tittle">Habilidades Sociales</h1>
+        <h3 className="tittle">Habilidades Sociales</h3>
       </div>
       <SocialsSkills/>
       <Footer/>

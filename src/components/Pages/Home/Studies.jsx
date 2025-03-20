@@ -14,7 +14,7 @@ export const Studies = () => {
         <button className="BackButton" onClick={() => navigate("/")}>
           ⬅ Volver
         </button>
-        <h1 className="tittle">Estudios</h1>
+        <h3 className="tittle">Estudios</h3>
       </div>
 
       <div className="cards-container">

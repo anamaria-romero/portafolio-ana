@@ -7,7 +7,7 @@ export const Versions = () => {
     <div className={`card ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(!flipped)}>
       <div className="card-inner">
         <div className="card-front">
-          <h2>Control de versiones</h2>
+          <h2>CONTROL <br /> DE VERSIONES</h2>
         </div>
 
         <div className="card-back">

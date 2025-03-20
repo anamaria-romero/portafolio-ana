@@ -6,6 +6,7 @@ import { Footer } from "./components/Layouts/Footer/Footer";
 import { Technicals } from "./components/Pages/Home/Technicals";
 import { Socials } from "./components/Pages/Home/Socials";
 import { Studies } from "./components/Pages/Home/Studies";
+import { Experiences } from "./components/Pages/Home/Experiences";
 
 export const App = () => {
   return (
@@ -25,6 +26,7 @@ export const App = () => {
         <Route path="/Technicals" element={<Technicals />} />
         <Route path="/Socials" element={<Socials />} />
         <Route path="/Studies" element={<Studies />} />
+        <Route path="/Experiences" element={<Experiences />} />
       </Routes>
     </Router>
   );

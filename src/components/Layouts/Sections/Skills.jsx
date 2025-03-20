@@ -14,6 +14,9 @@ export const Skills = () => {
       <button className="Skills" onClick={() => navigate("/Studies")}>
         Estudios
       </button>
+      <button className="Skills" onClick={() => navigate("/Experiences")}>
+        Expericencias Profesionales
+      </button>
     </div>
   );
 };

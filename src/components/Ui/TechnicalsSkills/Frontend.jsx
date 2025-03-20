@@ -7,7 +7,7 @@ export const Frontend = () => {
     <div className={`card ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(!flipped)}>
       <div className="card-inner">
         <div className="card-front">
-          <h2>Frontend</h2>
+          <h2>FRONTEND</h2>
         </div>
 
         <div className="card-back">

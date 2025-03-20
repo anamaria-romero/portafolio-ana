@@ -7,7 +7,7 @@ export const English = () => {
     <div className={`card ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(!flipped)}>
       <div className="card-inner">
         <div className="card-front">
-          <h2>Ingles</h2>
+          <h2>INGLES</h2>
         </div>
 
         <div className="card-back">
