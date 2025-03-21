@@ -15,7 +15,7 @@ export const Experiences = () => {
                 <button className="BackButton" onClick={() => navigate("/")}>
                     ⬅ Volver
                 </button>
-                <h3>Experiencias Profesionales</h3>
+                <h3 className="tittle">Experiencias Profesionales</h3>
             </div>
 
             <div className="projects-container">
